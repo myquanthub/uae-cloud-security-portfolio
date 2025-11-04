@@ -1,93 +1,72 @@
----
-title: UAE CLOUD SECURITY MASTER PLAN – ZERO ON-JOB CLOUD EXPERIENCE
-author: Your Name
-date: November 2025
-version: FINAL LOCKED – 2026 ADNOC / MUBADALA / DEWA WINNER
-tags: [SOC-to-Cloud, Zero-Experience, UAE, NESA, OT, AI, AZ-500, AWS-Sec, GitHub, Loom, CISO-Deck]
----
+Final 12-Month Roadmap
+Total Projects: 20 (9 Azure, 7 AWS, 4 Multi; mix of core + leadership for senior roles).
+Certs: 3 (AZ-500, AWS Sec Specialty, CCSP for 50K edge).
+Labs: Free Tier (Azure UAE North, AWS Bahrain) + TryHackMe (AED 360/year).
+Social: LinkedIn (3 posts/week), X (#UAECyber), Meetups (Dubai Cyber Hub).
+Budget: AED 2,500 (certs AED 2,000 + tools AED 500).
+Milestones: 4 Locks (Contrib, OT Optional, Video, Cashflow).
 
-# FINAL 12-MONTH UAE CLOUD SECURITY ROADMAP  
-**SOC Analyst (0 Cloud Job Exp) → #1 Cloud OT/AI Security Hire (2026)**  
-**Targets:** Mubadala | ADNOC | DEWA | du | Emirates | Etihad | Etisalat  
-**16 Projects = 3+ Years of Fake Cloud Experience**  
-**Time:** ~3.5 hrs/week | **Cost:** ~$650 | **Goal:** 3+ Tier-1 Offers by Nov 2026
+Month,Focus (Skills for 50K),Projects,Certs/Badges/Deliverables,Labs/Tools,Social/Networking,Job Actions (Salary Ramp),Hrs/Wk
+1,Azure Foundations + NESA,"1, 2",NESA Awareness Badge + Loom Intro Video,"Azure Free Tier (UAE North), Loom","LinkedIn: 1 post (""Day 1: 0 exp → Sentinel""); Join UAE Cyber Slack","Post portfolio; Apply 5 entry roles (Etisalat Jr, 23K)",16
+2,AWS Basics + Identity,"3, 4",AWS Bahrain Region Badge,"AWS Free Tier (Bahrain), TryHackMe (NESA path)","LinkedIn: 2 posts (""2/20 live""); X: #UAECyber tweet w/ screenshot","Network Dubai Cyber Hub Meetup; Apply 5 (DEWA Jr, 23K)",18
+3,NESA Compliance + Contrib Lock,5,Open-Source PR #1 (Azure Sentinel) + NESA Excel Matrix,"Terraform Cloud, GitHub Codespaces",LinkedIn: 3 posts (tag @EmiratesCyber); X: Follow @Mubadala,"Apply 10 mid-entry (Etihad Jr, 25K); GitHub ""Contributor"" badge",18
+4,AZ-500 Prep + Policy,"6, 7",AZ-500 Exam (Apr 15),"Whizlabs (AED 110), Microsoft Learn",LinkedIn: Post cert progress; UAE Cyber Slack intro,"Apply 10 (Etisalat Mid, 25K); Update CV w/ AZ-500",20
+5,SOAR/XDR + Aviation Sec,"8, 9",—,"Sentinel Playground, Logic Apps",LinkedIn: 3 posts (SOAR demo); Speak at Dubai Cyber Hub (15-min talk),"Apply 15 (DEWA Mid, 28K); DM 5 Emirates recruiters",20
+6,OT/SCADA (Optional) + IR,"10, 11 (Optional OT)",IR Playbook PDF + IEC Report (if OT),"Azure RTOS/IoT Hub (Free), TryHackMe OT room","LinkedIn: Video series (""IR in 60s""); X: #CloudSecUAE thread","Apply 15 senior-entry (Mubadala Mid, 30K); Emirates networking event",22
+7,AWS Sec Prep + Remediation,"12, 13",AWS Security Specialty Exam (Jul 15),"Qwiklabs (AED 300/3 mo), AWS Skill Builder",LinkedIn: Cert announcement post; UAE Cyber Slack AMA,"Apply 20 (Etisalat Senior, 30K); DM Mubadala leads",22
+8,AI/Containers + Aviation Sim,"14, 15, 19",CCSP Prep Start + O365 Aviation Sim (#19),"EKS Free Cluster, SageMaker, MCAS",LinkedIn: 3 posts (AI demo); Submit GISEC 2026 CFP (talk on aviation sec),"Apply 20 (Etihad Senior, 35K); GISEC networking",22
+9,Threat Hunting + Video Lock,"16, 17, 20",CCSP Exam (Sep) + 20/20 Loom GIFs + PR #2 Merged,"Athena, Sigma Rules, Pramp mocks",LinkedIn: Portfolio launch post; X: #UAECyber thread w/ videos,"Apply 25 lead (Emirates Lead, 38K); Video Lock = shortlist boost",18
+10,Leadership + CISO Deck,18,CISO 1-Pager PDF + KPI Dashboard + Leadership Blog (Medium post),"GitHub Pages, Power BI Free",LinkedIn: Blog share (3x); UAE Cyber Slack leadership discussion,"Apply 20 lead/architect (Mubadala Lead, 38K); Send CISO deck to 20 recruiters",16
 
----
-
-## "NO CLOUD EXP?" → 16-SECOND KILLER ANSWER
-> _“Zero on-job cloud exp — but **16 UAE-region projects** with NESA, OT, AI, and Loom videos = **3+ years of proof**.  
-> Project #1: 50+ Splunk rules → Sentinel (UAE North) — **95% detection**.  
-> Project #10.5: Siemens PLC → Defender → **<30s alert** (IEC 62443).  
-> **GitHub + Loom = my cloud resume.**”_
-
----
-
-## IMMEDIATE SETUP (Nov 1–2, 2025 | 3 hrs)
-
-```bash
-# GitHub
-gh repo create yourname/uae-cloud-security-portfolio --public
-
-# LinkedIn Headline
-"SOC → Cloud OT/AI | 16 UAE-NESA Projects | AZ-500 | AWS Sec | 0 Cloud Job Exp → 3 Yrs Proof"
+-----------------------------------------------------------------------------------------------------------------------------------
+Projects (20 Total: 10 Azure, 7 AWS, 3 Multi)
+All deployable in free tiers (UAE North/Bahrain regions); each with Terraform, KQL/Python code, NESA mapping, 60-sec Loom video, and resume line. Focus: Leadership (playbooks, dashboards) for senior pay.
+#,Repo Name,Cloud,Target,NESA Control,Key Tech/Lab,Resume Line (50K Level),Hrs
+1,splunk-to-sentinel-uae,Azure,All,AM-03,Sentinel + KQL (Azure Free Tier),Led 50+ Splunk-to-Sentinel migration (95% accuracy),6
+2,guardduty-phishing-emirates,AWS,Emirates,AM-05,GuardDuty + O365 (AWS Free Tier),Phishing detection playbook for aviation O365,6
+3,mcas-uae-north,Azure,Etihad,AM-04,MCAS + Conditional Access (Azure Free),Implemented MCAS for risky app access,8
+4,aad-ip-uae,Azure,Emirates,IA-02,AAD Identity Protection (Microsoft Learn Lab),Automated MFA for high-risk sign-ins,8
+5,nsg-hardening-uae,Azure,DEWA,SC-07,NSG + Flow Logs (Azure Sandbox),Hardened NSGs with NESA-compliant rules,8
+6,kv-uae-north,Azure,Mubadala,SC-12,Key Vault + RBAC (Azure Free),Secrets rotation policy w/ JIT access,8
+7,policy-nesa-uae,Azure,All,CM-06,Azure Policy as Code (Terraform Cloud Free),NESA compliance engine (100+ controls),10
+8,connectors-uae,Azure,All,AM-02,Sentinel Connectors (AAD/Defender),Integrated 5+ data sources for SIEM,8
+9,ir-runbook-uae,Azure,Etihad,IR-04,Logic App Playbook (Power Automate Free),End-to-end IR playbook (<90s response),10
+10,hunting-uae,Multi,All,AM-05,Jupyter + KQL/Athena (GitHub Codespaces),Proactive threat hunting notebook,10
+11,firewall-uae,Azure,DEWA,SC-07,Azure Firewall + Threat Intel (Free Tier),WAF ruleset w/ 1M RPS simulation,10
+12,paw-uae,Azure,Mubadala,AC-02,PAW + Intune (Azure Lab),Privileged workstation deployment,8
+13,backup-uae,Azure,All,CP-09,Backup Vault + Recovery (Free Tier),RTO <4hr recovery plan,8
+14,retention-uae,Azure,All,AU-11,Log Retention Policy (Sentinel),90-day compliant retention engine,6
+15,nesa-dashboard,Multi,All,CA-07,Power BI + Sentinel (Free),NESA KPI dashboard for CISOs,8
+16,lambda-remediation-mubadala,AWS,Mubadala,IR-05,Lambda + GuardDuty (AWS Free),<60s auto-remediation pipeline,12
+17,eks-ai-security-mubadala,AWS,Mubadala,CS-03,EKS + SageMaker Clarify (Free Cluster),AI model poisoning detection,12
+18,o365-aviation-sim-emirates,Azure,Emirates,IR-06,O365 Threat Sim (MCAS Lab),In-flight WiFi phishing simulation,8
+19,flight-data-ir-etihad,Multi,Etihad,IR-08,IR for Aviation Data (Pramp Mock),Breach response for flight systems,8
+20,leadership-nesa-ot-mubadala,Multi,Mubadala,GC-OT,OT NESA Mapping (Optional; TryHackMe OT),OT leadership playbook (IEC/NESA),6 (Optional)
+----------------------------------------------------------------------------------------
+Certifications (3 Total for 50K Edge)
+Cert,Month,Cost (AED),Why 50K?,Prep Resources
+AZ-500,4,600,Azure sec standard (DEWA/Emirates),"Whizlabs (AED 110), Microsoft Learn Free"
+AWS Security Specialty,7,"1,100",AWS lead roles (Mubadala/Etisalat),"AWS Skill Builder (AED 300/3 mo), Qwiklabs"
+CCSP,9,"1,100",Cloud architect cred (50K boost),(ISC)² Free Resources + Practice Exams (AED 200)
+---------------------------------------------------------------------------------------------
+Labs & Tools (Free/Low-Cost Setup)
+Tool/Lab,Cost (AED),Use,Region
+Azure Free Tier,0,"Sentinel, MCAS, NSG (UAE North)",UAE North
+AWS Free Tier,0,"GuardDuty, Lambda, EKS (Bahrain)",Bahrain
+TryHackMe,360/year,"NESA/OT rooms, aviation cyber labs",—
+Whizlabs/Qwiklabs,410,AZ-500/AWS prep,—
+GitHub Codespaces,0,Jupyter/Terraform dev,—
+Loom,0,60-sec demos,—
+Pramp,0,Mock interviews,—
+---------------------------------------------------------------------------------------------------
+Social Media & Networking (Build Visibility for 50K)
+Platform,Frequency,Content Strategy,Goal
+LinkedIn,3 posts/week,"Project demos (w/ Loom GIFs), cert updates, #UAECyber #CloudSecUAE; Tag @Emirates @Mubadala",500+ connections; Recruiter DMs (20/month)
+X (Twitter),5 tweets/week,"Screenshots, NESA tips, threads (#NESACompliance); Follow @UAENESA @GISECGlobal",200 followers; Viral threads for visibility
+Meetups/Slack,1 event/month,Dubai/Abu Dhabi Cyber Hub talks (15-min on IR/aviation); UAE Cyber Slack (#hiring channel),50 contacts; Speaking slots (GISEC CFP Month 8)
+Blog/Medium,1 post/month (Month 10+),"""NESA in Aviation"" or ""AI Sec Playbooks""",Leadership proof for lead roles
 -----------------------------------------------------------------------------------------------------
-
-Month	Focus	Projects	Cert / Deliverable	Tools	Social / Job Action	Hrs/Wk
-1	Azure + NESA + Loom	1, 2	NESA Badge + Loom Intro	Azure UAE North, Loom	Post #1	16
-2	AWS + Compliance	3, 4	AWS Bahrain Badge	AWS Bahrain, TryHackMe	LinkedIn: “2/16 live”	18
-3	NESA + CONTRIB LOCK	5	PR #1 Merged + NESA Excel	Terraform Cloud	GitHub Contributor Tag	18
-4	AZ-500 Prep	6, 7	AZ-500 Exam (Apr 15)	Whizlabs	Apply: du, Etisalat	20
-5	SOAR & XDR	8, 9	—	Sentinel, Logic Apps	Dubai Cyber Hub Talk	20
-6	OT/SCADA + OT LOCK	10, 10.5	PLC → Sentinel <30s + IEC Report	Azure RTOS, PLC Sim	ADNOC DM	22
-7	AWS Sec Prep	11, 12	AWS Sec Exam (Jul 15)	Qwiklabs	DM: Mubadala, ADNOC	22
-8	AI + Containers	13, 14	—	EKS, SageMaker	GISEC 2026 CFP	22
-9	Threat Hunting + VIDEO LOCK	15	15/15 Loom GIFs + PR #2 Merged	Athena, Sigma	Portfolio 100% Live	18
-10	CISO Deck	—	CISO 1-Pager + KPI Dashboard	GitHub Pages	Send to 10 recruiters	16
-11	Interview Sprint	—	—	Pramp	50+ apps via referrals	18
-12	OFFER LOCK	—	3+ Tier-1 Offers	—	Start: Dec 2026	15
-<img width="1351" height="313" alt="image" src="https://github.com/user-attachments/assets/c15e13f0-6964-4ade-aaac-8738e2ea1ca5" />
-
-----------------------------------------------------------------------------------------------------------
-#,Repo Name,Target,Tech Stack,NESA Control,Loom,Hrs
-1,splunk-to-sentinel-uae,All,Sentinel + KQL,AM-03,Yes,6
-2,guardduty-phishing-emirates,Emirates,GuardDuty + O365,AM-05,Yes,6
-3,defender-ot-dewa,DEWA,Defender for IoT,"OT-01, SC-02",Yes,8
-4,s3-encryption-mubadala,Mubadala,S3 + Macie,DS-03,Yes,6
-5,entra-rbac-etihad,Etihad,Entra ID P2,IAM-06,Yes,8
-6,sentinel-soar-du,du,Logic Apps,IR-07,Yes,10
-7,waf-ddos-dewa,DEWA,Azure WAF,NS-04,Yes,10
-8,keyvault-rbac-adnoc,ADNOC,Key Vault + JIT,KM-02,Yes,8
-9,defender-xdr-etisalat,Etisalat,M365 XDR,AM-07,Yes,10
-10,azure-policy-nesa,All,Azure Policy,GC-01–10,Yes,10
-10.5,defender-ot-adnoc-scada,ADNOC,Azure RTOS + PLC Sim + Defender,"OT-01, IEC 62443",Yes,6
-11,lambda-remediation-mubadala,Mubadala,Lambda + GuardDuty,IR-05,Yes,12
-12,firewall-manager-dewa,DEWA,AWS Network Firewall,NS-07,Yes,12
-13,securityhub-dashboard-uae,All,Security Hub + QuickSight,RM-01,Yes,10
-14,eks-ai-security-mubadala,Mubadala,EKS + SageMaker + Clarify,"CS-03, AI-Sec",Yes,12
-15,cloudtrail-hunting-etihad,Etihad,CloudTrail + Athena + Sigma,TH-01,Yes,12
-------------------------------------------------------------------------------------------------------------------------
-Credential,Month,Cost,Platform
-AZ-500,Apr 2026,$165,Microsoft Learn
-AWS Security Specialty,Jul 2026,$300,AWS Skill Builder
-NESA Awareness,Nov 2025,$0,UAE TRA Portal
-Azure UAE Region Expert,Dec 2025,$0,Microsoft Learn
-GitHub Contributor,Sep 2026,$0,Open-Source PR
------------------------------------------------------------------------
-Tool,Cost,Region,Use
-Azure Free Tier,$0,UAE North,"Sentinel, WAF"
-AWS Free Tier,$0,Bahrain,"GuardDuty, EKS"
-TryHackMe,$10/mo,—,NESA Labs
-Loom,$0,—,60-sec demos
-GitHub Pages,$0,—,KPI Dashboard
----------------------------------------------------------------------
-Objection,16-Second Answer
-“No cloud exp?”,“16 projects = 3+ yrs proof. Proj #1: 50 Splunk → Sentinel in UAE North — 95% accuracy. [Loom]”
-“Day 1 ready?”,“Proj #10.5: PLC in Azure → Defender → <30s alert. Same as ADNOC rigs.”
-------------------------------------------------------------------------
-Item,Cost,When
-TryHackMe,$90,9 months
-Whizlabs AZ-500,$30,Feb
-AWS Skill Builder,$87,May–Jul
-AZ-500 Exam,$165,Apr
-AWS Sec Exam,$300,Jul
-TOTAL,~$650,
+Interview Scripts (For 50K Negotiation)
+Objection,20-Second Answer
+"""No senior exp?""","""20 projects simulate 5+ yrs: Led Sentinel migration (#1, 95% accuracy) + AI sec playbook (#17, <60s remediation). CCSP + portfolio = immediate impact."""
+"""Salary 50K?""","""Base 40K + 10K bonus/perks = 50K effective. My NESA dashboard (#16) saves audit costs; aviation IR (#20) fits Emirates' needs."""
