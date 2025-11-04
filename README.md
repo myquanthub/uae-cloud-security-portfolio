@@ -64,6 +64,12 @@ Platform,Frequency,Content Strategy,Goal
 LinkedIn,3 posts/week,"Project demos (w/ Loom GIFs), cert updates, #UAECyber #CloudSecUAE; Tag @Emirates @Mubadala",500+ connections; Recruiter DMs (20/month)
 X (Twitter),5 tweets/week,"Screenshots, NESA tips, threads (#NESACompliance); Follow @UAENESA @GISECGlobal",200 followers; Viral threads for visibility
 Meetups/Slack,1 event/month,Dubai/Abu Dhabi Cyber Hub talks (15-min on IR/aviation); UAE Cyber Slack (#hiring channel),50 contacts; Speaking slots (GISEC CFP Month 8)
+--------------------------------------------------------------------------------------------------
+Quick Enhancements for 100% Fit
+
+ADNOC: Month 8—Add AI-HSE sim (#21: ai-ot-hse-adnoc, AWS, 4 hrs; aligns w/ their 2025 AI awards).
+DEWA: Month 6—Add cloud SCADA (#21: scada-cloud-dewa, Azure IoT Hub, 6 hrs; per NCSC guidance).
+General: Use Loom videos to demo NESA mapping; certs cover compliance.
 Blog/Medium,1 post/month (Month 10+),"""NESA in Aviation"" or ""AI Sec Playbooks""",Leadership proof for lead roles
 -----------------------------------------------------------------------------------------------------
 Interview Scripts (For 50K Negotiation)
